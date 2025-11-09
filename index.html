@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moodo Tracker 💫 | GitDaily</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🧠 Moodo Tracker</h1>
+        <p>Note ton humeur chaque jour et observe ton évolution.</p>
+      </header>
+
+      <!-- Mood Selector -->
+      <section id="mood-section">
+        <h2>Comment te sens-tu aujourd’hui ?</h2>
+        <div class="mood-options">
+          <button class="mood" data-mood="😄">😄</button>
+          <button class="mood" data-mood="🙂">🙂</button>
+          <button class="mood" data-mood="😐">😐</button>
+          <button class="mood" data-mood="😔">😔</button>
+          <button class="mood" data-mood="😢">😢</button>
+        </div>
+        <p id="save-message"></p>
+      </section>
+
+      <!-- History -->
+      <section id="history">
+        <h2>📅 Ton historique</h2>
+        <div id="mood-history"></div>
+        <p id="average"></p>
+        <button id="reset">🔄 Réinitialiser</button>
+      </section>
+
+      <footer>
+        <p>💫 GitDaily Challenge — Moodo Tracker</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
